@@ -15,10 +15,10 @@ mail_settings = {
     #
     "MAIL_SERVER": "smtp.gmail.com",
     # porta do email
-    "MAIL_PORT": 485,
-    "MAIL_USE_TLS": False,
+    "MAIL_PORT": 587,
+    "MAIL_USE_TLS": True,
     #segurança
-    "MAIL_USE_SSL": True,
+    "MAIL_USE_SSL": False,
     #nosso email
     "MAIL_USERNAME": os.getenv("EMAIL"),
     #nossa senha
