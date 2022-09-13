@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--link para bootstrap na pasta static-->
+  <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+  <!--link para CSS na pasta static-->
+  <link rel="stylesheet" href="../static/style.css">
+  <!--link para imagem do site na pasta static-->
+  <link rel="icon" type='image/jpg' href="../static/img/8.jpg">
+  <!--link para icon na pasta static-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <title>Desenvolvimento Web</title>
+</head>
+<!--corpo da pag-->
+
+<body>
+  <!--menu da tela quando esta responsivo-->
+  <i class="bi bi-list menu-mobile"></i>
+
+  <aside id='header'>
+    <section class="profile">
+      <!--imagens do menu asiade-->
+      <img src="../static/img/9.jpg" alt="Foto do José">
+      <h1>Jose Azarias</h1>
+      
+      <div class="link-page mt-4 text-center">
+        <!--link de direcionamento da pagina-->
+        <a target="_blank" href="https://www.linkedin.com/in/jose-azarias-05623a1ab/">
+          <!--icons da rede social-->
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <!--link de direcionamento da pagina-->
+        <a target="_blank" href="https://github.com/Ja36784">
+          <!--icons da rede social-->
+          <i class="bi bi-github"></i>
+        </a>
+        <!--link de direcionamento da pagina-->
+        <a target="_blank" href="https://www.instagram.com/jose.azarias78/">
+          <!--icons da rede social-->
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+      <!--Configuração da diposição do menu na aside a esquerda-->
+    </section>
+    <nav id='navbar' class='nav-menu'>
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <!--icons do bootstrap-->
+          <a class="nav-link active" aria-current="page" href="#inicio"><i class="bi bi-house"
+              arial-hidden="true"></i>Inicio</a>
+        </li>
+        <li class="nav-item">
+          <!--icons do bootstrap-->
+          <a class="nav-link" href="#sobre"><i class="bi bi-person" arial-hidden="true"></i>Sobre</a>
+        </li>
+        <li class="nav-item">
+          <!--icons do bootstrap-->
+          <a class="nav-link" href="#habilidades"><i class="bi bi-collection" arial-hidden="true"></i>Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <!--icons do bootstrap-->
+          <a class="nav-link" href="#curriculo"><i class="bi bi-file-earmark" arial-hidden="true"></i>Curriculo</a>
+        </li>
+        <li class="nav-item">
+          <!--icons do bootstrap-->
+          <a class="nav-link" href="#contato"><i class="bi bi-envelope" arial-hidden="true"></i>Contato</a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main id="main">
+    <!--Usando bootstrap para configurar textos proximo ao centro da pagina pag -->
+    <!-- A propriedade justify content alinha e distribui o espaço entre e ao redor dos itens de conteúdo-->
+    <!--d-flex é usado para projetar a estrutura de layout flexível e responsiva-->
+    <section id="inicio" class="row m-0 p-0">
+      <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
+        <h3 class="text-white text-shadow">J. Azarias</h3>
+        <span id="subtitle" class="text-white text-shadow">Desenvolvedor Web</span>
+      </div>
+      <!--Usando bootstrap para configurar o arraste da pag -->
+      <!-- A propriedade justify content alinha e distribui o espaço entre e ao redor dos itens de conteúdo-->
+      <!--d-flex é usado para projetar a estrutura de layout flexível e responsiva-->
+      <div class="col-md-7 d-flex justify-content-end align-items-end">
+        <div id="arraste" class="d-flex align-items-center">
+          <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
+          <a href="#sobre">Arraste para mais</a>
+        </div>
+      </div>
+
+    </section>
+    <!--Usando o bootstraps para agrupar os elementos e facilitar a configuração dentro deste container -->
+    <!--Configuração do campo sobre-->
+    <section class="container mt-5" id="sobre">
+      <div class="row w-100">
+        <div class="col md-12">
+          <h2 class="pt-3">Sobre</h2>
+          <p>Sou natural de Iporã/PR, moro em São Paulo a mais de 30 anos, casado e pai de 3 filhas lindas. 
+            Estou fazendo graduação em Análise e Desenvolvimento de Sistema na UNINTER. Passei por algumas empresas, 
+            conquistei espaço, ganhei prêmios, compartilhamos conhecimentos para evoluirmos juntos.
+            Estou em transição de carreira, encarando diversos desafios e focado em aprender novas tecnologias. 
+            Estou com uma xícara de café bem quente aguardando a próxima oportunidade para desenvolver ao máximo o meu 
+            potencial de Desenvolvedor.</p>
+        </div>
+      </div>
+      <!--Input e configuração da imagem no campo sobre-->
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <!--configuração para imagem responsiva, se ajustando conforme dispositivo-->
+          <img class="img-fluid shadow" src="../static/img/3.jpg" alt="Foto do Jose">
+        </div>
+        <div class="col-md-8">
+          <h3>Desenvolvedor Web</h3>
+          <p>A função de um desenvolvedor web é construir e manter sites. Um desenvolvedor web trabalha
+            internamente ou como freelance e as tarefas específicas e responsabilidades variam dependendo
+            se eles tão trabalhando em frontend, backend ou desenvolvedor full stack.
+          </p>
+          <!--Input de lista, colunas e configuração para inclusão de dado com formulários do bootstraps-->
+          <div class="row mt-3 mb-3">
+            <div class="col-md-6">
+              <!--Input e configuração de lista, colunas  para inclusão de dado com formulários do bootstraps-->
+              <ul class="list-group list-group-flush fs-5">
+                <!--Lista dentro de outra lista para Input e configuração de lista, colunas-->
+                <li class="list-group-item">
+                  Niver: <span class="fw-light"> 07 de Março de 1978</span>
+                </li>
+                <li class="list-group-item">
+                  Idade: <span class="fw-light"> 44 anos</span>>
+                </li>
+                <li class="list-group-item">
+                  Cidade: <span class="fw-light">São Paulo</span>
+                </li>
+                <li class="list-group-item">
+                  Estado: <span class="fw-light">São Paulo</span>
+                </li>
+              </ul>
+            </div>
+            <div class="col md-6">
+              <!--Input e configuração de lista, colunas  para inclusão de dado com formulários do bootstraps-->
+              <ul class="list-group list-group-flush fs-5">
+                <!--Lista dentro de outra lista para Input e configuração de lista, colunas-->
+                <li class="list-group-item">
+                  Hobby: <span class="fw-light">Pescaria, Trilha e Praia</span>
+                </li>
+                <li class="list-group-item">
+                  Trabalho: <span class="fw-light">Desenvolvedor Web</span>
+                </li>
+                <li class="list-group-item">
+                  Experiência: <span class="fw-light">+1 ano</span>
+                </li>
+                <li class="list-group-item">
+                  Estudante: <span class="fw-light">ADS</span>
+                </li>
+              </ul>
+
+            </div>
+
+          </div>
+          <!--Input de linhas e colunas ao lado da foto no campo Sobre-->
+          <p>
+            Gosto muito de atividades ao ar livre, o mais próximo possível da natureza. Uma de minhas paixões é a 
+            pescaria em alto mar, porem não descarto uma boa pescaria em rio, lagoa, pesqueiro ou praia, todas
+            me agradam e muito. Vale mais um péssimo dia de pescaria, do que um ótimo dia de trabalho...kkk 
+            É na calmaria das águas que está a verdadeira paz de um dia de pesca.
+
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="mt-3 section-ja" id="habilidades">
+      <!--Usando o bootstraps para agrupar os elementos e facilitar a configuração dentro deste container -->
+      <div class="container pb-5 ">
+        <h2 class="pt-3 ">Habilidades</h2>
+        <p> Em todo tempo omo profissional de tecnologia eu adquiri algumas habilidades técnicas e não técnicas,
+          a maioria delas estão aqui, tenho um pouco de conhecimento em cada uma delas.
+        </p>
+        <!--configuração de linhas, largura, altura e margem preenchimento-->
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mt-2 mb-0">Java</p>
+            <!--configuração das barras de progresso do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <p class="mt-2 mb-0">CSS</p>
+            <!--configuração das barras de progresso do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <p class="mt-2 mb-0">HTML</p>
+            <!--configuração das barras de progresso e seus atributos do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <p class="mt-2 mb-0">Python</p>
+            <!--configuração das barras de progresso e seus atributos do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <p class="mt-2 mb-0">Javascript</p>
+            <!--configuração das barras de progresso e seus atributos do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+
+          </div>
+          <!--configuração das barras de progresso e seus atributos do bootstrap-->
+          <div class="col-md-6">
+            <p class="mt-2 mb-0">Nodejs</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <p class="mt-2 mb-0">Git</p>
+            <!--configuração das barras de progresso e seus atributos do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <p class="mt-2 mb-0">SpringBoot</p>
+            <!--configuração das barras de progresso e seus atributos do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <p class="mt-2 mb-0">Banco de Dados</p>
+            <!--configuração das barras de progresso e seus atributos do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <p class="mt-2 mb-0">MySQL</p>
+            <!--configuração das barras de progresso e seus atributos do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+
+          </div>
+        </div>
+        <!--Essa hr divide linguagens, framework e skills-->
+        <hr class="w-50 mt-5 me-auto ms-auto">
+        <!--configuração de linhas, largura, altura e margem preenchimento-->
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mt-2 mb-0">Proatividade</p>
+            <!--configuração das barras de progresso e seus atributos do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <p class="mt-2 mb-0">Orientação a detalhes</p>
+            <!--configuração das barras de progresso e seus atributos do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <p class="mt-2 mb-0">Trabalho em equipe</p>
+            <!--configuração das barras de progresso e seus atributos do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            <p class="mt-2 mb-0">Comunicação</p>
+            <!--configuração das barras de progresso e seus atributos do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <p class="mt-2 mb-0">Empatia</p>
+            <!--configuração das barras de progresso e seus atributos do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <p class="mt-2 mb-0">Comprometimento</p>
+            <!--configuração das barras de progresso e seus atributos do bootstrap-->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="mt-5 vitae" id="curriculo">
+      <!--Usando o bootstraps para agrupar os elementos e facilitar a configuração dentro deste container -->
+      <!--configuração de linhas, largura, altura e margem preenchimento-->
+      <div class="container pd-5">
+        <h2 class="pt-3 pb-4">Currículo</h2>
+
+        <div class="row">
+          <div class="div col-md-6">
+            <h3 class="vitae-title">Profissão</h3>
+
+            <div class="vitae-item">
+              <h4>Controlador de Acesso</h4>
+              <h5>Atual</h5>
+              <p><em>Wesley Silva Gally</em></p>
+              <p>Liberar a entrada e saída de pessoas e veículos
+                Controlar a movimentação nas áreas em que é responsável
+                Impossibilitar a formação de aglomeração em locais determinados
+                Garantir a segurança do ambiente</p>
+            </div>
+
+            <div class="vitae-item">
+              <h4>Analista de Operações</h4>
+              <h5>06/2017 - 09/2018</h5>
+              <p><em>Banco Itau S/A</em></p>
+              <p>Análise documental para Abertura de Conta Pessoa Física e Pessoa Jurídica
+                Atendimento de Solicitações das diversas áreas de negócio do Banco interno e externo
+                Perfil Analítico para a fim de evitar perdas referentes a possíveis Fraudes
+                Análise de Pessoa Jurídica e Pessoa Física com indícios FATCA (Foreign Account Tax
+                Compliance Act), CRS (Common Reporting Standard) e CDE (Conta de Domiciliado no
+                Exterior)
+                Participação em grupos de pesquisas e melhorias de ferramentas e processos
+                Análise e cálculo de Renda de contas Pessoa Física</p>
+            </div>
+
+            <div class="vitae-item">
+              <h4>Analista de Operações</h4>
+              <h5>09/2005 - 06/2017</h5>
+              <p><em>BAnco Citibank S/A</em></p>
+              <p>Abertura de Conta Pessoa Jurídica
+                Exclusão e Inclusão de Produtos
+                Atendimento de Solicitações das diversas áreas de negócio do Banco Interno e Externo</p>
+
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            <h3 class="vitae-title">Educação</h3>
+
+            <div class="vitae-item">
+              <h4>Angular (Em andamento)</h4>
+              <h5>Em andamento</h5>
+              <p><em>Loiane Training</em></p>
+              <p>Route, HTTP, Forms, Animations, Typescript, Orientação a Objetos, React, Vue.js, Componentes, Rest</p>
+            </div>
+
+            <div class="vitae-item">
+              <h4>Java e Orientação a Objetos</h4>
+              <h5>Em andamento</h5>
+              <p><em>Loiane Training</em></p>
+              <p>Controles, Decisões, Loops; Vetores e Matrizes; For each; Orientação a Objetos
+                Java; Herança, Interface, Polimorfismo; Tratamento de erros e exceções;</p>
+            </div>
+
+            <div class="vitae-item">
+              <h4>Git</h4>
+              <h5>Em andamento</h5>
+              <p><em>Udemy</em></p>
+              <p>git init – cria a estrutura do repositório;
+                git add – adiciona os arquivos alterados a fila de atualização do repositório;
+                git config -- global – identifica o usuário que está fazendo as alterações;
+                git commit – confirma as alterações;
+                git push – envia as alterações;
+                git remote – link para o servidor de seu projeto no GitHub;
+                git pull requests – utilização para correção ou implementação de novos recursos em projetos</p>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="mt-5 pb-5 section-ja" id="contato">
+      <!--Usando o bootstraps para agrupar os elementos e facilitar a configuração dentro deste container -->
+      <!--Configuração de formulario contato - linhas, largura, altura e margem preenchimento-->
+      <div class="container mb-5">
+        <h2 class="pd-3 pb-3">Contato</h2>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card p-5 h-100 shadow border-0">
+              <!--No formulario a ação Send é acionada sempre que o botão submit é acionado, dentro do app.py
+               envia para a rota Send que recebe o método POST, na requisitção dentro do if para pegar os dados colocando 
+              dentro do objeto Contato, preenche a mensagem com os dados do form.Contato e depois envia o email -->
+              <form class="row g-3" action='/send' method="POST">
+                <div class="col-md-6">
+                  <label for="nome" class="label-form">Nome</label>
+                  <input type="nome" class="form-control" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="label-form">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email"
+                    required>
+                </div>
+
+                <div class="col-12">
+                  <label for="mensagem" class="label-form">Mensagem</label>
+                  <textarea type="text" class="form-control" id="mensagem" name="mensagem" rows="5"
+                    placeholder="Digite sua mensagem" required></textarea>
+                </div>
+                <!-- A propriedade justify content alinha e distribui o espaço entre e ao redor dos itens de conteúdo-->
+                <!--d-flex é usado para projetar a estrutura de layout flexível e responsiva-->
+                <div class="col-12 d-flex justify-content-center mt-4">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!--configuração de mensagem enviada-->
+    <!--configuração alerta-->
+    <!--Não consegui linkar o contato com o envio e recebimento de mensagem, devido
+    que o Google desabilitou o acesso a App menos seguro-->
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for message in messages %}
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <i class="bi bi-check-circle-fill"></i> {{message}}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    {% endfor %}
+    {% endif %}
+    {% endwith %} 
+  </main>
+
+  
+  <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/script.js"></script>
+</body>
+
+</html>
